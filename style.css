@@ -1,0 +1,72 @@
+.key {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    padding-bottom: 16px;
+}
+
+body{
+    background-color: #a9d0da;
+    text-align: center;
+    /* padding: 9em; */
+    padding-top: 6em;
+
+}
+.container
+{
+    background-color:none;
+    height:auto;
+    max-width:600px; 
+    display: inline-block;    
+}
+.input-div
+{
+margin-bottom: 0px !important;
+
+}
+input{
+    height:100px !important;
+
+}
+.keys-card
+{
+    height: auto;
+    padding: 0px;
+    margin:0px;
+}
+.btn-img
+{
+    background-image: url("images/keyboard-key.png");
+    height: 50px;
+    width:50px;
+    background-size: cover;
+    background-position: center;
+    font-family: bold;
+    display: inline-block !important;
+    line-height: 3;
+    cursor: pointer;
+
+}
+.alphabates-card
+{    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.space-and-arrow
+{
+    display:flex;
+    justify-content: center;
+}
+.space-img
+{
+    background-image: url("images/space-bar-key.png");
+    height: 50px;
+    width:90px;
+    background-size: cover;
+    background-position: center;
+    font-family: bold;  
+    line-height: 3;
+    cursor: pointer;
+}
