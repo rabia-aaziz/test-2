@@ -50,3 +50,8 @@ function send(){
     window.location.reload();  
     // document.body.style[cursor]=`bubble`;   
 }
+fonction show()
+{
+         alert("Your Message has been sent Successfully");
+    window.location.reload();  
+}
