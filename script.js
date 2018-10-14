@@ -33,9 +33,6 @@ document.input.addEventListener("keyup", function(event) {
 });
     }
 
-    function myFunction(event) {
-        var x = event.which;
-        document.getElementById("demo").innerHTML = "The Unicode value is: " + x;
     }
 
 function showAlpha(locale) {
@@ -50,8 +47,4 @@ function send(){
     window.location.reload();  
     // document.body.style[cursor]=`bubble`;   
 }
-fonction show()
-{
-         alert("Your Message has been sent Successfully");
-    window.location.reload();  
-}
+
