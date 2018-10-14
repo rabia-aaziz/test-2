@@ -32,9 +32,7 @@ document.input.addEventListener("keyup", function(event) {
     }
 });
     }
-
-    }
-
+   
 function showAlpha(locale) {
     document.querySelector('.form-control').value += locale.toLowerCase();
 }
